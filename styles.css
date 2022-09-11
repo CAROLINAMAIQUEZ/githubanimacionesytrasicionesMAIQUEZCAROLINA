@@ -22,7 +22,12 @@ nav ul {
     flex-wrap: wrap;
     list-style: none;
     justify-content: right;
+    transition: all 1.5s;
 
+}
+
+nav ul li :hover{
+    transform: scale(0.8);
 }
 
 ul li a{
@@ -62,6 +67,13 @@ ul li a{
     height: 350px;
 
   }
+
+  .galeriacontainer :hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
   .areasconsul{
     font-family: sans-serif;
     margin: 10px;
@@ -135,6 +147,13 @@ div{
     margin: 50px 50px;
 }
 
+.galeriaconsul :hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
 .article{
     border: none;
     font-family: Arial;
@@ -177,6 +196,14 @@ div{
     height: 400px;
   
 }
+
+.patiofotocqn :hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+        
+}
+
 
 .novedadesdisca{
     display: flex;
